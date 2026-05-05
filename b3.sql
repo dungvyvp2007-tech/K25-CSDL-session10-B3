@@ -51,9 +51,6 @@ GROUP BY d.Dept_Name;
 -- 4. KIỂM THỬ TRUY VẤN
 SELECT * FROM Department_Revenue_View;
 
--- 5. GIẢ LẬP HÀNH VI KẾ TOÁN (UPDATE THẤT BẠI)
--- Lệnh này sẽ trả về lỗi vì View chứa hàm tổng hợp (SUM, COUNT) 
--- và không được phép cập nhật trực tiếp.
 /*
 UPDATE Department_Revenue_View
 SET Total_Revenue = 2000.00
